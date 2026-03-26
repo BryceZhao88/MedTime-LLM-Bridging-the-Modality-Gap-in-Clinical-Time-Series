@@ -120,11 +120,12 @@ Recommendation: Multidisciplinary review recommended to address unresolved compl
 ## 📁 Repository Structure
 
 ```text
-├── main.py               # Main training & evaluation loop, MSTR & TimeLLM Architectures
-├── dataloader.py         # MIMIC-III dataset loader, Prompt engineering & CoT generation
-├── README.md             # Project documentation
-├── requirements.txt      # Dependency list
-└── data/                 # Directory for local .npy dataset files
+MedTime-LLM/
+├── assets/
+│   └── medtime_architecture.png  
+├── main.py
+├── dataloader.py
+└── README.md
 ```
 
 ---
