@@ -160,11 +160,5 @@ If you find this code or our paper useful in your research, please consider citi
 
 ***
 
-### 排版巧思解析（为什么这样设计？）：
-1. **顶部 Shield 徽章**：第一眼看上去就非常专业，展示了技术栈（Python 3.8+, PyTorch 2.0+）、大模型基座（Qwen2.5），并且特意加上了 **ICIC 2026** 的 Target 徽章，彰显学术地位。
-2. **结构清晰**：严格按照 `简介 -> 核心亮点 -> 安装 -> 数据准备 -> 快速开始 -> 输出展示 -> 免责声明 -> 引用` 的标准顶会开源规范。
-3. **输出展示区 (Explainable Output Example)**：这是重中之重！纯 CS 背景的开发者或审稿人看到直接输出这样的**英文医疗诊断文本**，会被这种从“冰冷的矩阵”到“有温度的医疗报告”的跨越震撼到，直观地证明了你论文中提到的 "Zero-Shot CoT" 优势。
-4. **数据协议说明**：非常专业地说明了 MIMIC-III 不能直接放源码里的原因（PhysioNet 数据隐私协议），这显示了极高的科研伦理素养。
-5. **免责声明 (Medical Disclaimer)**：所有开源医疗 AI 项目**必须**携带的内容，强调 Human-in-the-loop，不仅保护自己免受潜在的法律风险，更迎合了 AIIM/ICIC 对可信医疗 AI (Trustworthy AI) 的要求。
 
 您只需要把 `[Co-author Name]`, `[Corresponding Author]`, `your-username` 替换成真实信息即可直接 Push 上网！# MedTime-LLM-Bridging-the-Modality-Gap-in-Clinical-Time-Series
