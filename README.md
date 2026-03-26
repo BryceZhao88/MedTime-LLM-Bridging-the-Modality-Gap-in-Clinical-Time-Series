@@ -160,5 +160,3 @@ If you find this code or our paper useful in your research, please consider citi
 
 ***
 
-
-您只需要把 `[Co-author Name]`, `[Corresponding Author]`, `your-username` 替换成真实信息即可直接 Push 上网！# MedTime-LLM-Bridging-the-Modality-Gap-in-Clinical-Time-Series
