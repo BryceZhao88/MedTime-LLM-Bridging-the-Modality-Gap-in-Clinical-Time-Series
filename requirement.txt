@@ -1,0 +1,23 @@
+```text
+# ==========================================
+# MedTime-LLM Dependencies
+# ==========================================
+
+# Deep Learning Framework
+torch>=2.1.0
+
+# Large Language Model & Fine-tuning
+transformers>=4.40.0     # Required for Qwen2.5 architecture support
+peft>=0.10.0             # Parameter-Efficient Fine-Tuning (LoRA)
+accelerate>=0.29.0       # Essential for Transformers float16 and efficient model loading
+
+# Data Processing & Evaluation
+numpy>=1.24.0,<2.0.0     # Version limited to <2.0.0 to prevent compatibility issues with older PyTorch
+scikit-learn>=1.2.0      # For confusion_matrix and classification_report
+
+# Utilities
+tqdm>=4.66.0             # Progress bars
+```
+
+---
+
