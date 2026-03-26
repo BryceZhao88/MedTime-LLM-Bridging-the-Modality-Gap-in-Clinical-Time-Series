@@ -34,6 +34,10 @@ By transforming opaque numerical probability scores into **auditable, evidence-b
 - **📝 Zero-Shot Chain-of-Thought (CoT) Triage:** Generates highly readable clinical rationales alongside its predictions, justifying alerts based on the patient's latest stabilization trajectory.
 - **⚡ Parameter-Efficient Fine-Tuning (PEFT):** Leverages LoRA (Low-Rank Adaptation) on `q_proj` and `v_proj` attention layers, making it feasible to train on a single consumer-grade GPU (e.g., RTX 3090/4090).
 - **🛡️ High Clinical Safety (Recall-Oriented):** Asymmetrically optimizes for high sensitivity to prevent fatal false negatives in ICU bed allocation.
+<div align="center">
+  <img src="assets/medtime_architecture.png" alt="MedTime-LLM Architecture" width="85%">
+  <p><em>Figure 1: The Dual-Pathway Architecture of MedTime-LLM. The implicit pathway extracts multi-scale temporal dynamics (MSTR), while the explicit pathway constructs dynamic Chain-of-Thought (CoT) prompts. Both are fused to guide the Qwen-1.5B LLM.</em></p>
+</div>
 
 ---
 
