@@ -1,10 +1,3 @@
-
-
-
-这是一个为您量身定制的 GitHub `README.md` 模板。排版结合了**顶级顶会论文开源仓库的学术规范**和**现代开源项目的视觉美学**。
-
-您可以直接将以下 Markdown 代码复制到您的 GitHub 仓库的 `README.md` 文件中。
-
 ***
 
 # 🏥 MedTime-LLM: Bridging the Modality Gap in Clinical Time-Series
